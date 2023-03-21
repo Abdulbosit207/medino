@@ -1,0 +1,380 @@
+.secc{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.containerr{
+    width: 100%;
+    background: url('https://cdn.pixabay.com/photo/2020/04/19/20/10/test-tube-5065426__340.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    // color: white;
+    .navv{
+        width: 100%;
+        height: 80px;
+        // display: flex;
+        // justify-content: space-around;
+        // padding-top: 20px;
+        // position: fixed;
+        // z-index: 3;
+        background: whitesmoke;
+        padding: 15px 0;
+        .brand{
+            // display: flex;
+            i{
+                font-size: 40px;
+                // color: rgb(3,83,255);
+                color: rgb(42,166,249);
+                margin-top: 5px;
+            }
+           
+        }
+        .menu{
+            ul{
+                // display: flex;
+                li{
+                    list-style: none;
+                    font-weight: bold;
+                    // margin-left: 30px;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .bodyy{
+        width: 100%;
+        padding:300px 0;
+        .btnn{
+            padding: 10px 20px;
+            border: transparent;
+            background: linear-gradient(45deg, rgb(3,83,255), rgb(3, 196, 255));
+            color: white;
+            // transition: all 0.4s linear;
+            margin-top: 20px;
+            // transition: all 0.8s linear;
+            &:hover{
+                background: linear-gradient(45deg, rgb(3,83,255), rgb(3, 196, 255),  rgb(3, 196, 255));
+            }
+        }
+    }
+}
+
+.cardss{
+    // width: 100%;
+    // display: flex;
+    // justify-content: center;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    // justify-content: sp;
+    // margin: 0 auto;
+    // padding-left: 90px;
+    margin: 80px 0;
+    gap: 40px;
+
+    .cardd{
+        margin-top: 60px;
+        width: 280px;
+        text-align: center;
+        // border: 1px solid black;
+        padding: 50px 10px;
+        background: whitesmoke;
+        transition: all .3s linear;
+        h3{
+            font-size: 20px;
+            font-weight: bold;
+            padding-bottom: 15px;
+        }
+        i{
+            font-size: 60px;
+            padding-bottom: 30px;
+            color: rgb(3,83,255);
+        }
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.237) 0px 14px 38px 0px;
+            background: white;
+        }
+    }
+}
+.boxx{
+    width: 60px;
+    height: 60px;
+    background: rgb(3,83,255);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 70px;
+    left: 1450px;
+    z-index: 3;
+}
+
+.welcome{
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    background-color: rgba(220, 221, 230, 0.447);
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    .leftt{
+        position: relative;
+        img{
+            width: 400px;
+            position: absolute;
+            top: 50px;
+            left: 1px;
+        }
+    }
+    .rightt{
+        border: 10px solid rgba(128, 128, 128, 0.384);
+        // padding: 70px;
+        width: 700px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 300px;
+        .righttt{
+            // width: 440px;
+            padding-left: 100px;
+            button{
+                padding: 10px 20px;
+            border: transparent;
+            background: linear-gradient(45deg, rgb(3,83,255), rgb(3, 196, 255));
+            color: white;
+            // transition: all 0.4s linear;
+            margin-top: 20px;
+            // transition: all 0.8s linear;
+            &:hover{
+                background: linear-gradient(45deg, rgb(3,83,255), rgb(3, 196, 255),  rgb(3, 196, 255));
+            }
+            }
+        }
+
+    }
+}
+
+
+
+
+.our{
+    background: whitesmoke;
+    padding: 100px 0;
+    .top{
+        display: flex;
+        justify-content: center;
+        .topp{
+            width: 600px;
+            text-align: center;
+        }
+    }
+    .bot{
+        // display: grid;
+        // justify-content: center;
+        // grid-template-columns: repeat(4, 1fr);
+        // padding: 70px 150px;
+        gap: 30px;
+        .ccard{
+            width: 300px;
+            text-align: center;
+            // border: 1px solid;
+            transition: all linear 0.3s;
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.237) 0px 10px 15px 0px;
+                }
+            img{
+                width: 276px;
+            }
+            .body{
+                width: 100%;
+                padding: 17px 20px;
+                background: rgb(221, 218, 218);
+                // border: 1px solid;
+                &:hover{
+                    background: linear-gradient(45deg, rgb(3, 175, 255), rgb(3, 196, 255),  rgb(3, 251, 255));
+                    color: white;
+                }
+            }
+            .fot{
+                width: 100%;
+                padding: 17px 20px;
+                background: white;
+                // border: 1px solid;
+                // transition: all linear 0.3s;
+                // &:hover{
+                //     box-shadow: rgba(0, 0, 0, 0.237) 0px 10px 15px 0px;
+                // }
+                .ii{
+                    i{
+                        margin: 10px;
+                        font-size: 20px;
+                        transition: all linear 0.2s;
+                        cursor: pointer;
+                        &:hover{
+                            color: rgb(3,83,255);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.numm{
+    // background: url('https://cdn.pixabay.com/photo/2019/11/26/17/34/helicopter-4655049__340.jpg');
+    // background: linear-gradient( rgba(35, 213, 244, 0.3)), url('https://cdn.pixabay.com/photo/2019/11/26/17/34/helicopter-4655049__340.jpg');
+    background: linear-gradient( rgba(0, 234, 255, 0.2) , rgba(0, 140, 255, 0.8)), url('https://cdn.pixabay.com/photo/2019/11/26/17/34/helicopter-4655049__340.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-attachment: fixed;
+    padding: 150px 0;
+    text-align: center;
+    .nnum{
+        // background: linear-gradient(45deg, rgb(3, 175, 255), rgb(3, 196, 255),  rgb(3, 251, 255));
+        // background: rgba(rgb(3, 175, 255), rgb(3, 196, 255), rgb(3, 251, 255), 0.2);
+        color: white;
+        font-weight: bold;
+        padding: 0 20px;
+        .h1{
+            font-size: 70px;
+            padding: 20px 0;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+
+.rec{
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    .recc{
+        // width: 600px;
+        text-align: center;
+    }
+
+    .bar{
+        // display: grid;
+        // grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+        .var{
+            width: 370px;
+            // position: relative;
+            img{
+                width: 370px;
+            }
+            .tor{
+                color: white;
+                background: rgb(3,83,255);
+                width: 150px;
+                text-align: center;
+                align-items: center;
+                padding: 3px 10px;
+                position: relative;
+                top: -30px;
+                left: 30px;
+                p{
+                    padding-top: 6px;
+                    
+                }
+            }
+            h2{
+                font-size: 19px;
+                font-weight: bold;
+                transition: all linear 0.2s;
+                &:hover{
+                    color: rgb(3,83,255);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px){
+    .welcome{
+        // display: block;
+        .leftt{
+            img{
+                position: relative;
+                width: 1px;
+            }
+        }
+        .rightt{
+            margin-left: 10px;
+            .righttt{
+                padding-left: 30px;
+            }
+        }
+    }
+}
+@media screen and (max-width:767px){
+    .rightt{
+        width: 400px;
+        height: 300px;
+        // .righttt{
+        //     width: 300px;
+        // }
+    }
+}
+@media screen and (max-width:575px){
+    .rightt{
+        width: 200px;
+        height: 100px;
+        // .righttt{
+        //     width: 300px;
+        // }
+    }
+}
+// @media screen and (max-width:1400px){
+//     .cardss{
+//         padding-left: 60px;
+//         display: grid;
+//         grid-template-columns: 1fr 1fr 1fr;
+        
+//     }
+// }
+
+// @media screen and (max-width:1200px){
+//     .cardss{
+//         padding-left: 60px;
+//         display: grid;
+//         grid-template-columns: 1fr 1fr 1fr;
+        
+//     }
+// }
+
+// @media screen and (max-width:991px){
+//     .cardss{
+//         // padding-left: 200px;
+//         display: grid;
+//         grid-template-columns: 1fr 1fr;
+        
+//     }
+// }
+
+// @media screen and (max-width:767px){
+//     .cardss{
+//         padding-left: 200px;
+//         display: grid;
+//         grid-template-columns: 1fr;
+        
+//     }
+// }
+
+// @media screen and (max-width:575px){
+//     .cardss{
+//         padding-left: 120px;
+//         display: grid;
+//         grid-template-columns: 1fr;
+        
+//     }
+// }
